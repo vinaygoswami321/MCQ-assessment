@@ -7,7 +7,7 @@
 
 # MCQ Assessment  Portal
 
-This is an MCQ-based Online Assessment Portal made by Vinay Giri Goswami and Ayushi jain. The web application is made using `React js for frontend` and `Node js` as backend, `Mongodb` as Database and for the front-end part, we have used `HTML`, `CSS`, `JS`, and `Bootstrap`.
+This is an MCQ-based Online Assessment Portal made by Vinay Giri Goswami and Ayushi jain. The web application is made using `React js` and `Node js` as backend, `Mongodb` as Database and for the front-end part, we have used `HTML`, `CSS`, `JS`, and `Bootstrap`.
 
 You can find the Portal here: https://assesment-quiz.netlify.app/
 You can find the Admin Portal here: https://assesment-quiz.netlify.app/adminLogin
@@ -99,5 +99,5 @@ npm start
 
 5. Now just **RUN** the Project.
 
-6. If everything is done in order then this will open the website in your local machine at http://localhost:8080/ 
+6. If everything is done in order then this will open the website in your local machine at http://localhost:3000/ 
 
