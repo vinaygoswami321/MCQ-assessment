@@ -3,13 +3,12 @@
 
 
 
-
-
 # MCQ Assessment  Portal
 
 This is an MCQ-based Online Assessment Portal made by Vinay Giri Goswami and Ayushi jain. The web application is made using `React js` and `Node js` as backend, `Mongodb` as Database and for the front-end part, we have used `HTML`, `CSS`, `JS`, and `Bootstrap`.
 
 You can find the Portal here: https://assesment-quiz.netlify.app/
+
 You can find the Admin Portal here: https://assesment-quiz.netlify.app/adminLogin
 
 ## Demonstration Video:
@@ -57,35 +56,37 @@ All specifications are satisfied ✔️
 ## Pages Functionality:
    1. `Login page` - to take the data of users attempting for assessment and to show the dynamic rules for assessment created by admin.
    2. `Question Page` - after reading all the instructions,user should start the test after entering the correct details , all valid users are prompted to give assessment.
-   3. `Result Page` - after attempting the assessment, in case the user submits , the user will be redirected to this page on which they will get their resultant scores and if the user fails to answer the questions 
-   4. `Admin Page` - This page is isolated from normal user environment, content of that page can be accessed by authorised users only.
+   3. `Result Page` - after attempting the assessment, in case the user submits , the user will be redirected to this page on which they will get their resultant scores and if the user fails to answer all the questions in the given time duration he/she will be prompted with an alert message and will be redirected to the login page.
+   4. `Admin Page` - this page can't be accessed by normal user , content of that page can be accessed by authorised users only.
    
-- Assessment is of 15 minutes.
+- The number of the question is set by the admin and the admin can set the time and number of questions that he/she choose from the question pool.
 - Assessment will auto-submit in case of no submission before times up.
-- Assessment can be submitted anytime and at any point of assessment, score will be calculated accordingly.
 - There is no negative marking.
-- 15 questions asked in shuffled order from a question pool of 30 questions.
+- Number of questions set by admin will be asked in shuffled order from a question pool of questions he/she selected.
 
 ## Admin Panel:
-http://13.232.39.172/QuizApp/admin.html
+ttps://assesment-quiz.netlify.app/adminLogin
  - Firstly user have to login to admin panel with valid credentials to prove his authenticity.
  - Only admins with valid credentials can access inner content of page.
  - For test purpose, one of the admin's username and password given below:
  ```
- username:  admin@walkover.in
- password:  admin
+ username:  admin@gmail.com
+ password:  admin1234
  ```
  - After successful login user redirected to results page where he can see results of all users attempted the assessment.
- - On Results page, records of all attempts displayed with details : `Name` , `Email ID` , `Score`.
+ - On All user  page, records of all attempts displayed with details : `Name` , `Email ID` , `Score`.
+ - The admin can select the desired question from all the questions available in the question bank and make a pool of question from it.
+ - The admin can set the number of questions that will appear in the test and set the time for the test. 
+ - The admin can add new questions to the question bank using add question option.
 
 ## Project Setup: 
 
-**Requirements:** Pre-installed `Netbeans` with `Apache Tomcat-Server` and `MySQL`.
+**Requirements:** Pre-installed `VS code` with `Node js` and `MongoDB`.
 
 1. Clone this repository in your local machine using the following command:
 
     ```git
-    git clone https://github.com/kunal2899/AssessmentPortal.git
+    git clone https://github.com/vinaygoswami321/MCQ-assessment.git
     ```
 
 2. Open the cloned repository in `VS Code`.
